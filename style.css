@@ -1,0 +1,132 @@
+body {
+  display: grid;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.parent {
+  background-color: black;
+  height: 600px;
+  width: 30vw;
+  /* color: white; */
+  padding: 1rem;
+  border-radius: 24px;
+  font-size: xx-large;
+  display: grid;
+  gap: 10px;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 100px 100px 100px 100px;
+
+  grid-template-areas:
+    "header header header header"
+    "card-1 card-2 card-3 card-4"
+    "card-5 card-6 card-7 card-17"
+    "card-9 card-10 card-11 card-12"
+    "card-13 card-14 card-15 card-16";
+}
+
+.parent div {
+  /* background-color: rgb(119, 193, 200); */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-1 {
+  grid-area: header;
+  border-radius: 18px;
+  margin-bottom: 40px;
+  background-color: rgb(132, 127, 127);
+  margin-top: 12px;
+}
+
+.item-2 {
+  grid-area: card-1;
+  border-radius: 18px;
+  /* margin-top: 10%; */
+  background-color: white;
+}
+
+.item-3 {
+  grid-area: card-2;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.item-4 {
+  grid-area: card-3;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.item-5 {
+  grid-area: card-4;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.item-6 {
+  grid-area: card-5;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.item-7 {
+  grid-area: card-6;
+  border-radius: 18px;
+  background-color: white;
+}
+.item-8 {
+  grid-area: card-7;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.item-9 {
+  grid-area: card-9;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.item-10 {
+  grid-area: card-10;
+  border-radius: 18px;
+  background-color: white;
+}
+.item-11 {
+  grid-area: card-11;
+  border-radius: 18px;
+  background-color: white;
+}
+.item-12 {
+  grid-area: card-12;
+  border-radius: 18px;
+  background-color: white;
+}
+.item-13 {
+  grid-area: card-13;
+  border-radius: 18px;
+  background-color: white;
+}
+.item-14 {
+  grid-area: card-14;
+  border-radius: 18px;
+  background-color: white;
+}
+.item-15 {
+  grid-area: card-15;
+  border-radius: 18px;
+  background-color: rgb(173, 123, 29);
+}
+.item-16 {
+  grid-area: card-16;
+  border-radius: 18px;
+  background-color: rgb(173, 123, 29);
+}
+
+.item-17 {
+  grid-area: card-17;
+  border-radius: 18px;
+  background-color: white;
+}
